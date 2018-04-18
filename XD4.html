@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>A</title>
+    <style>
+        * {
+            box-sizing:border-box;
+        }
+        body{
+            margin:0 10% 0;
+            padding:0;
+            background-color:black;
+        }
+        div.container {
+            display:table;
+            padding:0;
+            margin:0;
+            width:100%
+        }
+
+        aside {
+            display:table-cell;
+            background-color:#d5e2e3;
+        }
+        main {
+            display: table-cell;
+            background-color: #e7f2f3;
+            margin:0;
+            padding:0;
+        }
+
+        article {
+            display: table-cell;
+            background-color:yellow;
+        }
+
+
+        header {
+            color: #08478e;
+            font-size: x-large;
+        }
+
+        footer {
+            background-color: #08478e;
+        }
+
+        .column {
+            display:table-cell;
+            width:33.33%;
+            height:50px;
+        }
+
+
+        nav.top {
+            margin-top:0;
+            margin:0;
+            padding:4px;
+            background-color:#1d1a1a;
+
+        }
+            nav.top ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 2px 6px;
+                overflow: hidden;
+            }
+            nav.top li {
+                float: left;
+                padding: 0 5px;
+                color: #aca2a2;
+            }
+                nav.top li a {
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    padding: 2px 6px;
+                    color: #aca2a2;
+                }
+                    nav.top li a.active {
+                        color: #ece6e6;
+                    }
+
+
+
+        nav.head {
+            margin: 0;
+            padding:0;
+            -webkit-padding-start:0px;
+            border-top:2px solid gray
+        }
+            nav.head ul {
+                list-style-type: none;
+                margin: 0;
+                overflow: hidden;
+            }
+
+            nav.head li {
+                float: left;
+                color: #aca2a2;
+                border-right:2px solid gray;
+                padding:4px 6px;
+            }
+
+                nav.head li a {
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                    color: #232121;
+                }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main style="width:80%">            
+            <nav class="top">
+                <ul>
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#">PINTEREST</a></li>
+                    <li><a href="#">GOOGLE+</a></li>
+                </ul>
+
+            </nav>
+
+            <header>
+                <h1>Kolokwium</h1>
+            </header>
+
+            <nav class="head">
+                <ul>
+                    <li><a href="#">STRONA GŁÓWNA</a></li>
+                    <li><a href="#">O MNIE</a></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <aside style="width:17%; height:200px">
+
+                </aside>
+
+                <article style="width:83%">
+
+                </article>
+            </div>
+
+            <footer class="container">
+            
+                    <div class="column">
+                        <p>Lorem Ipsum</p>
+                    </div>
+
+                    <div class="column">
+                        <p>Lorem Ipsum</p>
+
+                    </div>
+
+                    <div class="column">
+                        <p>Lorem Ipsum</p>
+
+                    </div>
+
+            </footer>
+
+        </main>
+
+
+
+        <aside style="width:20%; height:500px">
+            <ul>
+                <li>aaa</li>
+                <li>bbb</li>
+                <li>ccc</li>
+
+            </ul>
+
+        </aside>
+    </div>
+</body>
+</html>
